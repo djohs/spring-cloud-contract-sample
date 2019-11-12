@@ -1,0 +1,9 @@
+request:
+  method: GET
+  url: /hello
+  queryParameters:
+    name: LuLu
+response:
+  status: 200
+  fixedDelayMilliseconds: 5000
+  body: "Hello LuLu"
